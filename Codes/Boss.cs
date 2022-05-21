@@ -1,4 +1,4 @@
-namespace TEXT_GAME
+﻿namespace TEXT_GAME
 {
     class Boss
     {
@@ -6,10 +6,5 @@ namespace TEXT_GAME
 
         public int Attack = 0;
         public int Health = 0;
-
-        public void SetName(string name)
-        {
-            Name = name;
-        }
     }
 }
