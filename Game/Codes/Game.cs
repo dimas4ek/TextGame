@@ -888,7 +888,7 @@ namespace TEXT_GAME
                 {
                     Console.WriteLine($"\n\n{s_choice} < {s_enemy_choice}");
                     player.Health -= current_boss.Attack;
-                    Console.WriteLine($"\n{current_name}: нанес {current_boss.Attack} урона\n{current_name}: -{current_boss.Attack} ХП");
+                    Console.WriteLine($"\n{current_boss.Name}: нанес {current_boss.Attack} урона\n{current_name}: -{current_boss.Attack} ХП");
                     Console.WriteLine($"\n\t{current_name}: {player.Health} ХП\n\t{current_boss.Name}: {current_boss.Health} ХП");
                     Pause();
                     Console.Clear();
